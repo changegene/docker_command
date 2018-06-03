@@ -38,6 +38,7 @@ $ newgrp - docker
 
 ## make docker images
 ###Dockerfile：  
+
 | command | comments |
 | :- | :- | 
 | FROM image_name:tag                   | define the basic image and version |
