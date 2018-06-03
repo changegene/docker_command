@@ -25,6 +25,8 @@ $ newgrp - docker
 
 ## docker 
 
+|  | command | 
+| :- | :- | 
 | outport image:        | sudo docker save -o motifbreakr.tar xfli/motifbreakr |
 | import image:         | sudo docker load --input motifbreakr.tar             |
 | pull image:           | docker pull <name>                                   |
