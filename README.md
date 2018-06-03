@@ -24,13 +24,15 @@ $ newgrp - docker
 
 
 ## docker 
-| outport image: | sudo docker save -o motifbreakr.tar xfli/motifbreakr    |
-| import image: | sudo docker load --input motifbreakr.tar   |
+
+| outport image: | sudo docker save -o motifbreakr.tar xfli/motifbreakr |
+| import image: | sudo docker load --input motifbreakr.tar |
 | pull image: | docker pull <name>   |
 | show running docker：| docker ps  |
 | stop container：| docker stop ID |   
 | show images: | docker images   |
 | delete images: | docker rmi -f ID  |
+
 
 ## make docker images
 ###Dockerfile：  
